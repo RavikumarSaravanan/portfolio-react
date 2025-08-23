@@ -40,6 +40,21 @@ It highlights my **skills, projects, certifications, and professional journey** 
 
 ---
 
+### 📬 Contact Me
+
+📧 **Email:** [ravikumarsaravanan71640@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=ravikumarsaravanan71640@gmail.com&su=Freelance%20Opportunity&body=Hello%20Ravi,%0D%0A%0D%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.%0D%0A%0D%0AThanks.
+)  
+
+🔗 **LinkedIn:** [www.linkedin.com/in/ravikumar71640](https://www.linkedin.com/in/ravikumar71640)  
+
+🐙 **GitHub:** [github.com/RavikumarSaravanan](https://github.com/RavikumarSaravanan)  
+
+
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on [GitHub](https://github.com/RavikumarSaravanan/portfolio-react) — it helps others discover it!
+
 ## ⚡ Getting Started
 
 Clone the repository and run locally:
@@ -58,4 +73,4 @@ npm install
 npm run dev
 
 
----
+
