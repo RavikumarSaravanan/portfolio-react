@@ -1,12 +1,8 @@
-import prc1 from "./assets/prc1.png";
-import prc2 from "./assets/prc2.png";
-import prc3 from "./assets/prc3.png";
-import prc4 from "./assets/prc4.png";
-import prc5 from "./assets/prc5.png";
-import prc6 from "./assets/prc6.png";
-import cisco from "./assets/cisco.png";
-import n1 from "./assets/n1.png";
-import guvi from "./assets/GUVI-FSD.png";
+// ------------------ PROJECT IMAGES ------------------
+// Since these files are in /public/assets/
+const prc1 = "/assets/prc1.png";
+const prc2 = "/assets/prc2.png";
+const prc3 = "/assets/prc3.png";
 
 // ------------------ SITE META ------------------
 export const siteMeta = {
@@ -14,22 +10,22 @@ export const siteMeta = {
   role: "UI/UX Designer & Full-Stack Developer",
   location: "Tharangambadi, Mayiladuthurai, Tamil Nadu, India",
   email: "ravikumarsaravanan71640@gmail.com",
-  resume: "/resume.pdf" // put resume.pdf into public folder if you want
+  resume: "/resume.pdf" // ✅ correct Netlify path
 };
 
-// Import skill logos/icons
-import htmlIcon from "./assets/html-5-48.png";
-import cssIcon from "./assets/css-logo-48.png";
-import jsIcon from "./assets/javascript-logo-32.png";
-import reactIcon from "./assets/react-48.png";
-import figmaIcon from "./assets/figma-48.png";
-import photoshopIcon from "./assets/photoshop-48.png";
-import corelIcon from "./assets/coreldraw-logo-48.png";
-import flexIcon from "./assets/flex.png";
-import gitIcon from "./assets/git-logo-48.png";
-import githubIcon from "./assets/github-logo-48.png";
-import canva from "./assets/canva-app-48.png";
-import vscodeIcon from "./assets/vs-code-48.png";
+// ------------------ SKILL ICONS ------------------
+const htmlIcon = "/assets/html-5-48.png";
+const cssIcon = "/assets/css-logo-48.png";
+const jsIcon = "/assets/javascript-logo-32.png";
+const reactIcon = "/assets/react-48.png";
+const figmaIcon = "/assets/figma-48.png";
+const photoshopIcon = "/assets/photoshop-48.png";
+const corelIcon = "/assets/coreldraw-logo-48.png";
+const flexIcon = "/assets/flex.png";
+const gitIcon = "/assets/git-logo-48.png";
+const githubIcon = "/assets/github-logo-48.png";
+const canva = "/assets/canva-app-48.png";
+const vscodeIcon = "/assets/vs-code-48.png";
 
 // ------------------ SKILLS ------------------
 export const skills = [
@@ -47,24 +43,6 @@ export const skills = [
   { name: "VS Code", level: "Intermediate", icon: vscodeIcon }
 ];
 
-// ------------------ SKILLS ------------------
-// export const skills = [
-//   { name: "HTML", level: "Expert" },
-//   { name: "CSS", level: "Expert" },
-//   { name: "JavaScript", level: "Advanced" },
-//   { name: "React", level: "Advanced" },
-//   // { name: "Node.js", level: "Intermediate" },
-//   { name: "Figma", level: "Advanced" },
-//   { name: "Photoshop", level: "Intermediate" },
-//   { name: "CorelDRAW", level: "Intermediate" },
-//   { name: "Flex Sign Pro", level: "Intermediate" },
-//   { name: "Git", level: "Intermediate" },
-//   { name: "Github", level: "Intermediate" },
-//   // { name: "Responsive Design", level: "Advanced" },
-//   { name: "UI/UX Design", level: "Advanced" },
-//   { name: "VS Code", level: "Intermediate" }
-// ];
-
 // ------------------ PROJECTS ------------------
 export const projects = [
   {
@@ -77,9 +55,6 @@ export const projects = [
     github: "https://github.com/ravikumarsaravanan/portfolio-website",
     image: prc1
   },
-  // add github links for other projects if available
-
-
   {
     id: 2,
     title: "V-CARD",
@@ -96,11 +71,10 @@ export const projects = [
     subtitle: "Personal Profile Card",
     desc: "A personal profile card showcasing my skills and contact information.",
     tech: ["HTML", "CSS"],
-    link: "https://ravikumarsaravanan.github.io/profile-card/",
-    github: "https://github.com/RavikumarSaravanan/profile-card",
+    link: "https://ravikumarSaravanan.github.io/profile-card/",
+    github: "https://github.com/ravikumarsaravanan/profile-card",
     image: prc3
-  },
-
+  }
 ];
 
 // ------------------ EDUCATION ------------------
@@ -154,28 +128,27 @@ export const experience = [
 // ------------------ CERTIFICATES ------------------
 export const certificates = [
   {
-  id: 3,
-  title: "Certificate of Completion - #LearnWithGUVI Season Two",
-  organization: "GUVI & HCL",
-  date: "October 14 - 19, 2024",
-  image: "./src/assets/GUVI-FSD.png", // replace with your actual path
-  verify: "#"
-},
+    id: 3,
+    title: "Certificate of Completion - #LearnWithGUVI Season Two",
+    organization: "GUVI & HCL",
+    date: "October 14 - 19, 2024",
+    image: "/assets/GUVI-FSD.png", 
+    verify: "#"
+  },
   {
     id: 1,
     title: "Full-Stack Web Development Intern",
     organization: "Novitech R&D Pvt. Ltd",
     date: "March - April 2025",
-    image: "./src/assets/n1.png",
-    verify: "#",
+    image: "/assets/n1.png",
+    verify: "#"
   },
- {
-  id: 2,
-  title: "Python Essentials 1",
-  organization: "Cisco Networking Academy & OpenEDG Python Institute",
-  date: "August 03, 2024",
-  image: "./src/assets/cisco.png", // replace with your actual path
-  verify: "#"
-}
-
+  {
+    id: 2,
+    title: "Python Essentials 1",
+    organization: "Cisco Networking Academy & OpenEDG Python Institute",
+    date: "August 03, 2024",
+    image: "/assets/cisco.png",
+    verify: "#"
+  }
 ];

@@ -72,7 +72,7 @@
 // }
 import React from "react";
 import { siteMeta } from "../data";
-import avatar from "../assets/avatar.png"; // add your avatar here
+import avatar from "/assets/avatar.png"; // add your avatar here
 
 export default function Hero() {
   return (
