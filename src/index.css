@@ -629,7 +629,7 @@ body { counter-reset: section; }
 
 /* Footer */
 .site-footer, footer {
-  padding-left: 10px; /* Updated for mobile: Reduced padding */
+  padding-left: 0px; /* Updated for mobile: Reduced padding */
   text-align: center;
   color: var(--slate);
   font-size: 0.85rem; /* Updated for mobile: Smaller font */
@@ -639,6 +639,7 @@ body { counter-reset: section; }
   color: var(--slate);
   margin: 0 6px; /* Updated for mobile: Smaller margin */
   transition: color 0.3s ease;
+  justify-content: center;
 }
 
 .social-links a:hover {
@@ -660,7 +661,6 @@ body { counter-reset: section; }
 .side-email {
   right: 40px;
   writing-mode: vertical-rl;
-  
 }
 .side-social {
   left: 40px;
@@ -671,9 +671,11 @@ body { counter-reset: section; }
   font-size: 0.8rem;
   letter-spacing: 1px;
   transition: color 0.3s ease;
+  height: 100%;
 }
 .side-email a:hover {
   color: var(--green);
+  
 }
 
 /* Add subtle line decoration */
@@ -682,19 +684,20 @@ body { counter-reset: section; }
   content: "";
   display: block;
   width: 1px;
-  height: 120px;
+  height: 50px;
   margin-top: 20px;
   background: var(--slate);
 }
 .side-social { left: 40px; } /* Updated for mobile: Closer to edge */
 .side-email { right: 40px; }
 
-.side-social a,
-.side-email a {
+.side-social a {
   color: var(--slate);
   font-size: 1.1rem; /* Updated for mobile: Slightly smaller */
   transition: color 0.3s ease, transform 0.2s ease;
+  height: 15px;
 }
+
 
 .side-social a:hover,
 .side-email a:hover {
@@ -707,7 +710,7 @@ body { counter-reset: section; }
   content: "";
   display: block;
   width: 1px;
-  height: 110px; /* Updated for mobile: Shorter line */
+  max-height: 50px; /* Updated for mobile: Shorter line */
   margin-top: 16px;
   background: var(--slate);
 }
@@ -766,7 +769,7 @@ body { counter-reset: section; }
 
 .social-links {
   display: flex;
-  padding-left: 180px;
+  padding-left: -180px;
   gap: 12px; /* Updated for mobile: Smaller gap */
 }
 @media (min-width: 768px) {
