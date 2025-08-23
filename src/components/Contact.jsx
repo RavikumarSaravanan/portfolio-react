@@ -31,32 +31,30 @@ export default function Contact() {
   return (
     <section id="contact" className="section container">
       <div className="card">
-        <h2>Contact</h2>
+        <h2 className="section-title">Contact</h2>
         <p className="small">
           Reach out — I’m available for freelance and full-time roles. Email:{" "}
           {siteMeta.email}
         </p>
 
-        <form
-          onSubmit={onSubmit}
-          className="contact-form"
-          style={{ marginTop: 12 }}
-        >
-          <input
-            name="name"
-            value={form.name}
-            onChange={onChange}
-            placeholder="Your name"
-            required
-          />
-          <input
-            name="email"
-            type="email"
-            value={form.email}
-            onChange={onChange}
-            placeholder="Email"
-            required
-          />
+        <form onSubmit={onSubmit} className="contact-form">
+          <div className="form-row">
+            <input
+              name="name"
+              value={form.name}
+              onChange={onChange}
+              placeholder="Your name"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              value={form.email}
+              onChange={onChange}
+              placeholder="Email"
+              required
+            />
+          </div>
           <textarea
             name="message"
             value={form.message}
@@ -64,7 +62,7 @@ export default function Contact() {
             placeholder="Message"
             required
           />
-          <button type="submit" className="btn btn-primary" >
+          <button type="submit" className="btn btn-primary">
             Send Message
           </button>
         </form>

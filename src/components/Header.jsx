@@ -32,10 +32,36 @@ export default function Header() {
           role="navigation"
           aria-label="Main navigation"
         >
-          <button onClick={() => handleNavClick("home")}>Home</button>
-          <button onClick={() => handleNavClick("about")}>About</button>
-          <button onClick={() => handleNavClick("projects")}>Projects</button>
-          <button onClick={() => handleNavClick("contact")}>Contact</button>
+          <button onClick={() => handleNavClick("about")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>01.</span> About
+          </button>
+          <button onClick={() => handleNavClick("education")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>02.</span> Education
+          </button>
+          <button onClick={() => handleNavClick("experience")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>03.</span> Experience
+          </button>
+          <button onClick={() => handleNavClick("skills")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>04.</span> Skills
+          </button>
+          <button onClick={() => handleNavClick("projects")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>05.</span> Projects
+          </button>
+          <button onClick={() => handleNavClick("certificates")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>06.</span> Certificates
+          </button>
+          <button onClick={() => handleNavClick("contact")}>
+            <span className="nav-number" style={{ color: "var(--green)" }}>07.</span> Contact
+          </button>
+
+          <a
+            href="/resume.pdf" // replace with actual resume file path
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-btn"
+          >
+            Resume
+          </a>
         </nav>
       </div>
     </header>
