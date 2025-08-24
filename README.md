@@ -24,10 +24,10 @@ It highlights my **skills, projects, certifications, and professional journey** 
 ## 📸 Preview
 
 ### 💻 Desktop View
-![Desktop Screenshot](src/assets/desktop.png)
+![Desktop Screenshot](/assets/desktop.png)
 
 ### 📱 Mobile View
-![Mobile Screenshot](src/assets/mb.png)
+![Mobile Screenshot](/assets/mb.png)
 
 ---
 
