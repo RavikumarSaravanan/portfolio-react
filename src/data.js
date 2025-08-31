@@ -67,12 +67,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "PROFILE-CARD",
-    subtitle: "Personal Profile Card",
-    desc: "A personal profile card showcasing my skills and contact information.",
+    title: "Book My Show Clone",
+    subtitle: "A clone of the popular movie ticket booking platform",
+    desc: "This project replicates the core features of the Book My Show platform, allowing users to browse movies, view showtimes, and book tickets.",
     tech: ["HTML", "CSS"],
-    link: "https://ravikumarSaravanan.github.io/profile-card/",
-    github: "https://github.com/ravikumarsaravanan/profile-card",
+    link: "https://book-my-show-clone-ravikumar.netlify.app/#",
+    github: "https://github.com/RavikumarSaravanan/Book-my-show-clone-",
     image: prc3
   }
 ];
