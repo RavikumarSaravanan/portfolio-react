@@ -55,13 +55,14 @@ export default function Header() {
           </button>
 
           <a
-            href="/resume.pdf" // replace with actual resume file path
-            target="_blank"
-            rel="noopener noreferrer"
-            className="resume-btn"
-          >
-            Resume
-          </a>
+  href="/resume.pdf"
+  target="_blank"
+  download="RaviKumar_Resume.pdf"
+  rel="noopener noreferrer"
+  className="resume-btn"
+>
+  Resume
+</a>
         </nav>
       </div>
     </header>
