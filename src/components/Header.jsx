@@ -53,15 +53,15 @@ export default function Header() {
           <button onClick={() => handleNavClick("contact")}>
             <span className="nav-number" style={{ color: "var(--green)" }}>07.</span> Contact
           </button>
-
-          <a
-            href="/resume.pdf" // replace with actual resume file path
-            target="_blank"
-            rel="noopener noreferrer"
-            className="resume-btn"
-          >
-            Resume
-          </a>
+<a
+  href="/resume.pdf"
+  download="RaviKumar_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="resume-btn"
+>
+  Resume
+</a>
         </nav>
       </div>
     </header>
