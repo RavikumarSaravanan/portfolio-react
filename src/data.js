@@ -46,35 +46,38 @@ export const skills = [
 // ------------------ PROJECTS ------------------
 export const projects = [
   {
-    id: 1,
-    title: "PORTFOLIO",
-    subtitle: "Design + Development",
-    desc: "A personal portfolio showcasing my work and skills.",
-    tech: ["HTML", "CSS", "JAVASCRIPT"],
-    link: "https://ravikumarsaravanan.github.io/portfolio-website/",
-    github: "https://github.com/ravikumarsaravanan/portfolio-website",
-    image: prc1
-  },
+  id: 1,
+  title: "IoT Monitoring & Control-Dashboard for Data center",
+  subtitle: "MERN + IoT integration project",
+  desc: "A full-stack web application  — demonstrating real-time data handling, device communication, and web interface.",
+  tech: ["MERN", "IoT"],
+  link: "https://www.linkedin.com/posts/ravikumar71640_iot-mernstack-webdevelopment-activity-7394021699400359936-D6it?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfMQLcBltkrzKAbMzq2NlY4yyOOJf_EcH8",
+  github: "https://github.com/RavikumarSaravanan/IoT-Monitoring-Control-Dashboard-for-Data-center-Video",   // optionally, add GitHub link if you have repo
+  image: prc1   // optionally, reference an image placeholder similar to prc2
+}
+,
+{
+  id: 2,
+  title: "Knowledge Garden",
+  subtitle: "MERN + React Web Project",
+  desc: "Knowledge Garden is a MERN-stack learning platform that provides structured learning modules, interactive content.",
+  tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
+  link: "https://www.linkedin.com/posts/ravikumar71640_webdevelopment-mernstack-reactjs-activity-7394365896779157504-jc59?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfMQLcBltkrzKAbMzq2NlY4yyOOJf_EcH8",
+  github: "https://github.com/RavikumarSaravanan/Knowledge-Garden",       // add GitHub URL if you have a repo
+  image: prc2       // replace with actual image reference like you did (prc2, prc3 etc.)
+}
+,
   {
-    id: 2,
+    id: 3,
     title: "V-CARD",
     subtitle: "Creative idea + implementation",
     desc: "A virtual business card showcasing my skills and contact information.",
     tech: ["HTML", "CSS", "JAVASCRIPT"],
     link: "https://ravikumarsaravanan.github.io/VCARD/",
     github: "https://github.com/RavikumarSaravanan/VCARD",
-    image: prc2
-  },
-  {
-    id: 3,
-    title: "Book My Show Clone",
-    subtitle: "A clone of the popular movie ticket booking platform",
-    desc: "This project replicates the core features of the Book My Show platform, allowing users to browse movies, view showtimes, and book tickets.",
-    tech: ["HTML", "CSS"],
-    link: "https://book-my-show-clone-ravikumar.netlify.app/#",
-    github: "https://github.com/RavikumarSaravanan/Book-my-show-clone-",
     image: prc3
   }
+  
 ];
 
 // ------------------ EDUCATION ------------------
